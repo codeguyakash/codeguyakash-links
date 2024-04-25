@@ -36,6 +36,7 @@ p {
   margin-bottom: 1.2rem;
   color: var(--text-color);
   font-size: 18px;
+  font-weight: 300;
 }
 h3 > span {
   background-color: var(--sec-text-color);
@@ -92,6 +93,11 @@ footer > div {
   color: var(--sec-text-color);
   display: flex;
   align-items: center;
+}
+footer > div > img {
+  width: 250px;
+  /* filter: drop-shadow(0 0 0.75rem rgb(63, 63, 63)); */
+  filter: grayscale(--text-color);
 }
 @media screen and (max-width: 480px) {
   body {
