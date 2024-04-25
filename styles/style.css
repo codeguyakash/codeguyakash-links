@@ -44,11 +44,20 @@ h3 > span {
   border-radius: 1px;
 }
 img {
-  width: 150px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  border: 5px solid var(--sec-text-color);
-  padding: 5px;
   transition: 1s;
+}
+.image-div {
+  width: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  opacity: 0.1;
+  border-radius: 50%;
+  background-image: url("../utils/profile.png");
 }
 .follow {
   font-size: 1.2rem;
